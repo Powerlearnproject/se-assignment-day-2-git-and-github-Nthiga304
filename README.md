@@ -281,7 +281,7 @@ If a public repository lacks a feature, you can fork it and modify it for your o
 Example: Forking a CMS repo to add custom themes and plugins.
 
 Keeping Your Fork Updated
-Since the original project may receive updates, you need to sync your fork to stay current:
+Since the original project may receive updates, you need to sync your fork to stay current
 
 
 
