@@ -105,6 +105,7 @@ A well-structured README fosters a shared understanding, reducing confusion and 
 A public repository is visible to anyone on GitHub, meaning anyone can view, fork, and clone it.
 
 ✅ Advantages:
+
 ✔ Open Collaboration – Developers worldwide can contribute, making it ideal for open-source projects.
 ✔ Visibility & Exposure – Useful for showcasing work, attracting contributors, and building a portfolio.
 ✔ Community Support – Issues and discussions can be addressed by a large community.
@@ -112,6 +113,7 @@ A public repository is visible to anyone on GitHub, meaning anyone can view, for
 ✔ GitHub Pages Hosting – If the repository contains a website, GitHub can host it publicly.
 
 ❌ Disadvantages:
+
 ✖ Less Privacy – All code and discussions are publicly accessible.
 ✖ Risk of Unauthorized Use – Even with a license, people might misuse or copy the code without proper credit.
 ✖ Security Concerns – Exposing API keys, credentials, or sensitive information is risky.
@@ -121,12 +123,14 @@ Best for: Open-source projects, portfolios, educational content, and community-d
 A private repository is only accessible to you and invited collaborators.
 
 ✅ Advantages:
+
 ✔ Confidentiality – Code remains private, protecting intellectual property and sensitive data.
 ✔ Controlled Access – Only invited team members can view and contribute.
 ✔ Security – Reduced risk of unauthorized forks or clones.
 ✔ Internal Collaboration – Useful for companies, teams, and projects in early development.
 
 ❌ Disadvantages:
+
 ✖ Limited Visibility – Not suitable for building a public portfolio or attracting contributors.
 ✖ Reduced Community Input – No external contributions unless explicitly invited.
 ✖ Not Ideal for Open-Source Growth – Harder for others to discover and contribute to your project.
@@ -283,19 +287,23 @@ Enhancing Collaboration with Issues & Project Boards
 1. Common Challenges New Users Face
 
 🔴 Merge Conflicts
+
 Occur when multiple people edit the same file in different ways.
 Can cause confusion, especially for beginners unfamiliar with resolving conflicts.
 
 💡 Solution:
+
 ✔ Use feature branches to isolate changes.
 ✔ Pull the latest changes (git pull origin main) before making new edits.
 ✔ Use tools like GitHub’s conflict editor or git mergetool to resolve conflicts manually.
 
 🔴 Unclear Commit Messages
+
 Vague messages like "fixed stuff" make it hard to track changes.
 Teams struggle to understand what a commit does.
 
 💡 Solution:
+
 ✔ Use clear, descriptive commit messages (e.g., "Fix login button alignment on mobile").
 ✔ Follow conventional commit formats (e.g., "feat: Add user authentication").
 
@@ -304,6 +312,7 @@ Direct changes to main can cause instability.
 Overwrites previous work and makes it hard to track different versions.
 
 💡 Solution:
+
 ✔ Use branches for new features or bug fixes.
 ✔ Follow a branching strategy like Git Flow (main, develop, feature-branch).
 
@@ -312,6 +321,7 @@ GitHub has a size limit (100MB per file).
 Large files slow down the repository and increase conflicts.
 
 💡 Solution:
+
 ✔ Add a .gitignore file to exclude unnecessary files (e.g., logs, compiled binaries).
 ✔ Use Git LFS (Large File Storage) for big assets like images and datasets.
 
@@ -320,6 +330,7 @@ Skipping code reviews leads to untested code merging into the main branch.
 Lack of task tracking makes collaboration chaotic.
 
 💡 Solution:
+
 ✔ Open Issues to report bugs and request features.
 ✔ Use Pull Requests to review code before merging.
 ✔ Assign reviewers to PRs for better quality control.
@@ -327,12 +338,14 @@ Lack of task tracking makes collaboration chaotic.
 2. Best Practices for Smooth Collaboration
 
 ✅ Use Branching Strategies
+
 Feature branches for new work (feature/add-search-bar).
 Hotfix branches for urgent bug fixes (hotfix/fix-login-issue).
 Merge branches via Pull Requests (PRs) for review before going to main.
 
 ✅ Pull Changes Before Pushing: To avoid conflicts
 ✅ Automate Testing & Deployment
+
 Use GitHub Actions for Continuous Integration (CI) to auto-test code before merging.
 Run tests automatically on every pull request.
 
